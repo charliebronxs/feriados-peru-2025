@@ -1,0 +1,26 @@
+name: Generar ICS automático
+
+on:
+  push:
+    paths:
+      - 'feriados.csv'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      - name: Ejecutar script para generar .ics
+        run: |
+          python generar_ics.py
+      - name: Subir cambios .ics
+        run: |
+          git config --global user.name 'auto-bot'
+          git config --global user.email 'bot@example.com'
+          git add Feriados_Peru_2025_Nombrado.ics
+          git commit -m 'Actualización automática del .ics'
+          git push
