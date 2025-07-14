@@ -6,49 +6,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
-      font-family: sans-serif;
-      max-width: 700px;
+      font-family: 'Segoe UI', sans-serif;
+      max-width: 800px;
       margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
+      padding: 20px;
+      line-height: 1.7;
+      color: #222;
     }
     img {
       max-width: 100%;
+      margin-bottom: 20px;
     }
     h1, h2 {
-      color: crimson;
+      color: #b10000;
     }
     code {
-      background: #f3f3f3;
+      background: #f5f5f5;
       padding: 2px 6px;
       border-radius: 4px;
+      font-size: 0.95em;
     }
     a {
-      color: #0066cc;
+      color: #0044cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <img src="../banner.png" alt="Feriados Perú 2025">
+
+  <img src="../banner.png" alt="Banner Feriados Perú 2025">
 
   <h1>🇵🇪 Feriados Perú 2025</h1>
   <p>Agrega los feriados oficiales peruanos a tu calendario con un solo clic.</p>
 
-  <h2>📤 Descargar archivo .ics</h2>
+  <h2>📤 Descargar el archivo .ics</h2>
   <p><a href="../Feriados_Peru_2025_Nombrado.ics" download>Haz clic aquí para descargar</a></p>
 
-  <h2>📅 Añadir a tu calendario</h2>
-  <p><strong>Google Calendar:</strong> ve a "Otros calendarios &gt; Desde URL" y pega este enlace:</p>
-  <code>https://raw.githubusercontent.com/charliebronxs/feriados-peru-2025/main/Feriados_Peru_2025_Nombrado.ics</code>
+  <h2>📱 iPhone / iOS</h2>
+  <p>
+    Ve a <strong>Ajustes → Calendario → Cuentas → Añadir cuenta</strong><br>
+    Selecciona <strong>Otra → Añadir calendario suscrito</strong><br>
+    Pega este enlace:<br>
+    <code>https://raw.githubusercontent.com/charliebronxs/feriados-peru-2025/main/Feriados_Peru_2025_Nombrado.ics</code>
+  </p>
 
-  <p><strong>Outlook (web):</strong> Ir a “Agregar calendario &gt; Suscribirse desde la web” y usar el mismo enlace.</p>
+  <h2>📅 Google Calendar (Android o Web)</h2>
+  <p>
+    Entra a <a href="https://calendar.google.com" target="_blank">Google Calendar</a><br>
+    En el panel izquierdo, haz clic en <strong>+ Otros calendarios → Desde URL</strong><br>
+    Pega este mismo enlace:<br>
+    <code>https://raw.githubusercontent.com/charliebronxs/feriados-peru-2025/main/Feriados_Peru_2025_Nombrado.ics</code>
+  </p>
+
+  <h2>💻 Outlook Web</h2>
+  <p>
+    Haz clic en <strong>Agregar calendario → Suscribirse desde la web</strong><br>
+    Pega el enlace y dale un nombre como "Feriados Perú 2025"
+  </p>
 
   <h2>🔄 Actualización automática</h2>
-  <p>Cada vez que se edite <code>feriados.csv</code>, el archivo <code>.ics</code> se actualizará solo gracias a GitHub Actions.</p>
+  <p>
+    Cada vez que edites el archivo <code>feriados.csv</code>, el archivo <code>.ics</code> se regenera solo gracias a GitHub Actions.
+  </p>
 
-  <h2>🧑‍💻 Autor</h2>
-  <p>Este proyecto fue creado por <strong>@charliebronxs</strong>.</p>
+  <hr>
 
-  <footer><small>© 2025 – Proyecto libre y gratuito.</small></footer>
+  <p>👨‍💻 Proyecto de <strong>@charliebronxs</strong></p>
+  <p><small>© 2025 - Calendario generado automáticamente con GitHub Actions</small></p>
+
 </body>
 </html>
