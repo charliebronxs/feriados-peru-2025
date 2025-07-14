@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="banner.png" alt="Feriados Perú 2025" width="100%" />
+</p>
 # 🇵🇪 Feriados Perú 2025 – Calendario Automático (.ics)
 
 Este proyecto genera un archivo `.ics` actualizado automáticamente con los **feriados oficiales del Perú para el año 2025**.  
