@@ -52,8 +52,11 @@ Este repositorio utiliza GitHub Actions para:
 
 ## ✏️ ¿Quieres personalizar los feriados?
 
-Solo edita el archivo [`feriados.csv`](./feriados.csv) con tus fechas preferidas.  
-Cada vez que guardes un cambio, el calendario se actualizará solo 😉
+Puedes **editar el archivo `feriados.csv`** en tu copia del repositorio para agregar tus propias fechas.
+Cada vez que guardes un cambio, el calendario `.ics` se actualizará automáticamente.
+
+🔐 **Nota:** Este repositorio es público, pero **solo el autor o colaboradores autorizados** pueden modificar los feriados oficiales directamente.
+Otras personas pueden enviar propuestas mediante fork y pull request.
 
 ---
 
